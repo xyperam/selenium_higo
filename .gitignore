@@ -1,0 +1,28 @@
+# Java class files
+*.class
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+*.iml
+*.project
+*.classpath
+*.settings/
+
+# Maven target folder
+/target/
+
+# Test Reports
+/test-output/
+/allure-results/
+/allure-report/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment or secrets
+.env
+config.properties

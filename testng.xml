@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Higo Test Suite">
+  <test name="Run Single Test">
+    <classes>
+      <class name="tests.HigoCompanyProfileTest">
+        <methods>
+          <include name="verifyFilterAll" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
