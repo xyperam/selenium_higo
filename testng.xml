@@ -4,7 +4,7 @@
     <classes>
       <class name="tests.HigoCompanyProfileTest">
         <methods>
-          <include name="verifyFilterAll" />
+          <include name="verifyBlankForm" />
         </methods>
       </class>
     </classes>

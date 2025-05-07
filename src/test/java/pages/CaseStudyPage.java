@@ -49,6 +49,6 @@ WebDriver driver;
 		return driver.findElement(h2Kintaro).isDisplayed();
 	}
 	public boolean isHeaderClientWifiDisplayed() {
-		return driver.findElement(h2Kintaro).isDisplayed();
+		return driver.findElement(h2HomeCredit).isDisplayed();
 	}
 }

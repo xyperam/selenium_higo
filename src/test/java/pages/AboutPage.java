@@ -10,7 +10,11 @@ public class AboutPage {
 		this.driver = driver;
 	}
 	By aboutHeaderText = By.xpath("//h1[normalize-space()='Tentang HIGO']");
+
+			
+	
 	public boolean isAboutHeaderDisplayed() {
 		return driver.findElement(aboutHeaderText).isDisplayed();
 	}
+	
 }

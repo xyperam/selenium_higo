@@ -19,8 +19,12 @@ public class Navbar {
 	By caseStudy = By.cssSelector("a[href='/case-study']");
 	By DigitalReports = By.cssSelector("a[href='/digital-reports']");
 	By contact = By.cssSelector("a[href='/contact-us']");
+	By elBlog = By.cssSelector("a[href='https://blog.higo.id/");
 	public void clickNavAbout() {
 		driver.findElement(navAbout).click();
+	}
+	public void clickNavBlog() {
+		driver.findElement(elBlog).click();
 	}
 	public void clickCaseStudy() {
 		driver.findElement(caseStudy).click();
